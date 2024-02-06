@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6d3d3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3498db;
+    color: #e9e4e4;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.player-info {
+    background-color: #c01c1c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.player-info img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.player-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.player-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ef2e2e;
+}
+
+.biography,
+.achievements,
+.bibliography {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.achievements ul,
+.bibliography ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements li,
+.bibliography li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
